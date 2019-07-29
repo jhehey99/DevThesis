@@ -1,0 +1,51 @@
+<div>
+  <h1>ECG </h1>
+
+  <div id="ecg_graph"></div>
+  <script type="text/javascript">
+    function displayEcg() {
+      var socket = io.connect('http://localhost:6969', { transports: ['websocket', 'polling'] });
+
+      Plotly.plot('ecg_graph', [{
+        y: [0],
+        mode: 'lines',
+        line: {color: '#80CAF6'}
+      }]);
+
+      var maxEntryCount = 300;
+      var entryCount = 0;
+      var timeEntries = [];
+      var valueEntries = [];
+
+      socket.on('update ecg', function(msg) {
+        // add entries
+        msg.data.forEach(function(data) {
+          timeEntries.push(data.time);
+          valueEntries.push(data.value);
+          entryCount ++;
+        })
+
+        // pag sumobra na, remove first element
+        while(entryCount > maxEntryCount) {
+          timeEntries.shift();
+          valueEntries.shift();
+          entryCount --;
+        }
+
+        // console.log(allEntries);
+      });
+
+      // update the display ecg_graph
+      setInterval(function() {
+        var data_update = {
+          x: [timeEntries],
+          y: [valueEntries]
+        };
+        Plotly.restyle('ecg_graph', data_update);
+      }, 500); // ms
+
+    }
+
+    displayEcg();
+  </script>
+</div>

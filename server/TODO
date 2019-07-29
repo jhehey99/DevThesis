@@ -1,0 +1,30 @@
+
+
+Routes for mobile app api
+Routes for arduino api
+
+ARDUINO - will only send data
+ > /sensor/send
+    > ECG and PPG data will be sent to this route 
+
+
+MOBILE APP 
+ > /mobile
+ > get sensor data and display in the mobile app
+
+
+
+Modify ERD -> sensor data shall be saved on files and filenames are stored in the database
+mount sensor directory
+
+
+
+
+/mobile/newaccount
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+ <nav>
+<div class="nav-wrapper">
+  <a href="javascript:startRecording_clicked();" style="display: block; text-align: center;">Start Recording</a>
+</div>
+</nav>
+<div class="nav-record" style="overflow: hidden; margin-top: 10%;">
+  <h5 style="text-align:center;">Record Id: </h5>
+  <h4 style="text-align:center;" class="record-id"></h4>
+  <h5 style="text-align:center;" class="timer-label">Enter Time:</h5>
+  <input type="text" pattern="\d*" maxlength="2" id="text_time" style="display:block; text-align:center; width: 30%; margin-left: auto; margin-right: auto;" value="5" onchange="onTextTime_changed();" />
+  <h5 style="text-align:center;">Record Timer</h5>
+  <h4 style="text-align:center;" class="record-time">5</h4>
+  <h5 style="text-align:center;">Last Recorded Id:</h5>
+  <h4 style="text-align:center;" class="recorded-id"></h4>
+
+</div>
+<script type="text/javascript">
+$.ajax({ 
+    type: 'GET', 
+    url: 'http://localhost:6969/recordId', 
+    dataType: 'json',
+    success: function (data) { 
+      $('h4.record-id').text(data);
+    }
+});
+
+$.ajax({ 
+    type: 'GET', 
+    url: 'http://localhost:6969/recordedId', 
+    dataType: 'json',
+    success: function (data) { 
+      $('h4.recorded-id').text(data);
+    }
+});
+</script>

@@ -1,0 +1,9 @@
+ECG NODE -> RF24, Json
+PPG ARM NODE -> RF24, Json
+PPG LEG NODE -> RF24, Json
+MASTER Arduino -> RF24, Json, Nodemcu
+MASTER Nodemcu -> HTTPClient, Json 
+
+
+
+

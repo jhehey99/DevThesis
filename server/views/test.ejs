@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
+    <script src="javascripts/plotly-latest.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <div id="chart"></div>
+    <script>
+        var times = "<%= times %>".split(',');
+        console.log(times);
+        var values = "<%= values %>".split(',');
+        console.log(values);
+
+        Plotly.plot('chart', [{
+            x: times,
+            y: values,
+            type:'line'
+        }]);
+
+        setInterval(function() {
+            location.reload();
+        }, 1000);
+    </script>
+  </body>
+</html>

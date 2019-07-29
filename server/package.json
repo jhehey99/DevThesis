@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "chartist": "^0.11.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^2.6.2",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.6.0",
+    "morgan": "~1.9.1",
+    "mysql": "latest",
+    "mysql-import": "^2.0.2",
+    "plotly.js": "^1.48.3",
+    "socket.io": "^2.2.0"
+  }
+}

@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6ac2d18-2bf9-4879-ad2f-eedededa313d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ppg_test/ppg_processing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1342">
+              <caret line="65" selection-start-line="65" selection-end-line="69" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="995">
+              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test_data2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6600">
+              <caret line="300" selection-start-line="300" selection-end-line="300" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test_data1">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6534">
+              <caret line="297" selection-start-line="297" selection-end-line="297" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>25%</find>
+      <find>Systolic Peak P</find>
+      <find>dist_dp</find>
+      <find>Average Distance</find>
+      <find>plt.save</find>
+      <find>ave_ifv_margin</find>
+      <find>np.average(new_inflct_values)</find>
+      <find>ave_ifv_val</find>
+      <find>ave_ifv_low</find>
+      <find>new_inflct_points</find>
+      <find>1.20</find>
+      <find>0.2</find>
+      <find>new</find>
+      <find>systolic peak pro</find>
+      <find>pop(0)</find>
+      <find>Proposed</find>
+      <find># 8</find>
+      <find>'x'</find>
+      <find>systolic</find>
+      <find>test</find>
+      <find>0.8</find>
+      <find>test_</find>
+      <find>figsize</find>
+      <find>minima</find>
+      <find>plt.plot(mi</find>
+      <find>diastolic</find>
+      <find>test_data</find>
+      <find># 1</find>
+      <find># 3</find>
+      <find>&gt;&gt;&gt;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>1</replace>
+      <replace>vmargin</replace>
+      <replace>peak_ave_value</replace>
+      <replace>subplot(32</replace>
+      <replace>subplot(22</replace>
+      <replace>ADC Value</replace>
+      <replace>ave_ifv_margin</replace>
+      <replace>ave_ifv_low</replace>
+      <replace>new2_inflct_points</replace>
+      <replace>pop()</replace>
+      <replace>Initial</replace>
+      <replace>diastolic</replace>
+      <replace>systolic</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gradient_descent_example/gradient_descent_example.py" />
+        <option value="$PROJECT_DIR$/regression/test.py" />
+        <option value="$PROJECT_DIR$/savitzky_golay_filter_example/savitzky_golay_filter.py" />
+        <option value="$PROJECT_DIR$/ppg_test/ppg_test1.py" />
+        <option value="$PROJECT_DIR$/ppg_test/ppg_idle_test_data1" />
+        <option value="$PROJECT_DIR$/filter_test/butterworth.py" />
+        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data1" />
+        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data2" />
+        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data4" />
+        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data3" />
+        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data5" />
+        <option value="$PROJECT_DIR$/gradient_descent_example/gradient_descent.py" />
+        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data6" />
+        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data7" />
+        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data8" />
+        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data_leg1" />
+        <option value="$PROJECT_DIR$/ppg_test/nodetest.py" />
+        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data9" />
+        <option value="$PROJECT_DIR$/ppg_test/FFormatter.py" />
+        <option value="$PROJECT_DIR$/ppg_test/__init__.py" />
+        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data10" />
+        <option value="$PROJECT_DIR$/ppg_test/ppg_test_fft.py" />
+        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data11" />
+        <option value="$PROJECT_DIR$/ppg_test/testtest.py" />
+        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data12.py" />
+        <option value="$PROJECT_DIR$/ppg_test/ppg_processing.py" />
+        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data12" />
+        <option value="$PROJECT_DIR$/ecg_test/ecg_test_data3" />
+        <option value="$PROJECT_DIR$/ecg_test/ecg_test_data1" />
+        <option value="$PROJECT_DIR$/ecg_test/ecg_test_data2" />
+        <option value="$PROJECT_DIR$/ecg_test/ecg_test.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1672" />
+    <option name="y" value="124" />
+    <option name="width" value="974" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="py" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="py" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py" type="462c0819:PsiDirectoryNode" />
+              <item name="ecg_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.ecg_test">
+    <configuration name="ecg_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ecg_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ecg_test/ecg_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gradient_descent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gradient_descent_example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradient_descent_example/gradient_descent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ppg_processing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ppg_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ppg_test/ppg_processing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ppg_test_fft" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ppg_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ppg_test/ppg_test_fft.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ppg_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ppg_test/testtest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ecg_test" />
+        <item itemvalue="Python.ppg_processing" />
+        <item itemvalue="Python.testtest" />
+        <item itemvalue="Python.ppg_test_fft" />
+        <item itemvalue="Python.gradient_descent" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6ac2d18-2bf9-4879-ad2f-eedededa313d" name="Default Changelist" comment="" />
+      <created>1563164924718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563164924718</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10800843" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.20042872" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3954984" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.3279743" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3290461" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="new_inflct_points[i]" language="Python" />
+        <watch expression="new_inflct_points" language="Python" />
+        <watch expression="new2_inflct_points" language="Python" />
+        <watch expression="diff_ifp" language="Python" />
+        <watch expression="diastolic_points" language="Python" />
+        <watch expression="abs(new_inflct_points[i + 1] - new_inflct_points[i])" language="Python" />
+        <watch expression="ifp_d" language="Python" />
+        <watch expression="i" language="Python" />
+        <watch expression="j" language="Python" />
+        <watch expression="skip" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>skip</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new2_inflct_points</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>j</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new_inflct_points</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new_inflct_points[i]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>abs(new_inflct_points[i + 1] - new_inflct_points[i])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ifp_d</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>diastolic_points</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>diff_ifp</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/regression/bidmc/bidmc01.hea">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regression/bidmc/bidmc01.dat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regression/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="e#134#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regression/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/savitzky_golay_filter_example/savitzky_golay_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_savgol_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filter_test/butterworth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#6#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_idle_test_data1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="314" selection-start-line="314" selection-end-line="314" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="314" selection-start-line="314" selection-end-line="314" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="296" column="10" selection-end-line="312" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="295" column="10" selection-start-line="295" selection-start-column="10" selection-end-line="295" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="313" selection-start-line="313" selection-end-line="313" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/fig1.html" />
+    <entry file="file://$PROJECT_DIR$/ppg_test/fig1" />
+    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="296" selection-start-line="296" selection-end-line="296" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradient_descent_example/gradient_descent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data7">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="289" selection-start-line="289" selection-end-line="289" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data8">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="278" selection-start-line="278" selection-end-line="278" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data_leg1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/nodetest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data9">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="316" selection-start-line="316" selection-end-line="316" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/ticker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="685" selection-start-line="685" selection-end-line="685" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/FFormatter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_fft.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="136" selection-start-line="115" selection-end-line="136" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data10">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="317" column="9" selection-start-line="317" selection-start-column="9" selection-end-line="317" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data11">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="321" selection-start-line="321" selection-end-line="321" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/testtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data12.py" />
+    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data12">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="593" selection-start-line="593" selection-end-line="593" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test_data3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="282" column="10" lean-forward="true" selection-start-line="282" selection-start-column="10" selection-end-line="282" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="65" selection-start-line="65" selection-end-line="69" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test_data2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6600">
+          <caret line="300" selection-start-line="300" selection-end-line="300" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test_data1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6534">
+          <caret line="297" selection-start-line="297" selection-end-line="297" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="995">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
