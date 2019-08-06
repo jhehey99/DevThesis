@@ -1,0 +1,58 @@
+Input Signal
+ > ex. 5 seconds, ave range 280 - 320 + data points
+
+(Pre-Processing)
+{
+Interpolate Input Signal
+ > each 5 seconds, 500 data points
+
+Filter Signal
+ > 10th order 5 Hz Low Pass Zero-Phase Butterworth Filter
+}
+
+(Systolic Peak Finding)
+{
+2-Pass Peak Finding
+
+1st Pass
+> Using find_peaks function find peaks
+> get difference between each peak
+> get average difference
+> distance = 75% of average (parang margin)
+
+2nd Pass
+> Using find_peaks function
+> and distance acquired in the 1st pass
+> find systolic peaks
+
+Note:
+> The distance is to avoid false detection of diastolic peaks as systolic peaks
+}
+
+(Diastolic Peak Finding)
+{
+> get first derivative
+> get max of filtered and max of first derivative
+> gain = max filtered / max first derivative
+> first derivate *= gain
+> get gradients peaks by inverting y of signal, find peaks
+
+
+> get minima points by inverting y of signal, find peaks
+> use same systolic 2-pass peak finding 75% distance
+
+> get diastolic peaks
+> minima peak -> gradient peak = diastolic peaks
+}
+
+(Systolic-Diastolic Peak Matching)
+{
+> reference point = first minima point
+> get all systolic and diastolic points after reference point
+> get systolic points after first diastolic point from left
+> get diastolic points before last systolic point from right
+}
+
+
+
+

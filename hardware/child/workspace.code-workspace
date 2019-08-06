@@ -11,6 +11,10 @@
 		{
 			"name": "ppg-leg",
 			"path": "ppg-leg"
+		},
+		{
+			"name": "nodemcu",
+			"path": "C:\\Users\\Jhehey\\Documents\\_Files\\DevThesis\\hardware\\root\\nodemcu"
 		}
 	],
 	"settings": {

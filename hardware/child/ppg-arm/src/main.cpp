@@ -16,37 +16,53 @@
 
 /* Function Definitions */
 
-void setup() { /* COM17 */
+void setup() { /* COM20 */
   // put your setup code here, to run once:
   rfInit(ppgArmNode);
   pinMode(PB3, OUTPUT);
 }
 
+long count = 0;
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  // turn which led
-  // digitalWrite(PB3, toggle);
-  toggle = !toggle;
-
   network.update();
-
-  // get delta time
-  // t = (millis() - t_start) / 1000.0;
-  // get new value
-  // value = 512 * sin(2 * PI * f_sin * t) + 512;
-
-  // get analogValue
-  value = analogRead(SENSOR_IN);
 
   // build buffer
   sprintf(dataBuffer, "%d", ppgArmNode);
   dataBuffer[1] = ',';
-  int last = sprintf(dataBuffer + 2, "%ld", millis());
-  dataBuffer[last + 2] = ',';
-  sprintf(dataBuffer + last + 3, "%d", value);
+  sprintf(dataBuffer + 2, "%ld", count);
+  count ++;
 
   // write to rf24 network
   RF24NetworkHeader header(rootNode);
   bool ok = network.write(header,&dataBuffer,DATA_SIZE);
 }
+
+
+// void loop2() {
+//   // put your main code here, to run repeatedly:
+//   // turn which led
+//   // digitalWrite(PB3, toggle);
+//   toggle = !toggle;
+
+//   network.update();
+
+//   // get delta time
+//   // t = (millis() - t_start) / 1000.0;
+//   // get new value
+//   // value = 512 * sin(2 * PI * f_sin * t) + 512;
+
+//   // get analogValue
+//   value = analogRead(SENSOR_IN);
+
+//   // build buffer
+//   sprintf(dataBuffer, "%d", ppgArmNode);
+//   dataBuffer[1] = ',';
+//   int last = sprintf(dataBuffer + 2, "%ld", millis());
+//   dataBuffer[last + 2] = ',';
+//   sprintf(dataBuffer + last + 3, "%d", value);
+
+//   // write to rf24 network
+//   RF24NetworkHeader header(rootNode);
+//   bool ok = network.write(header,&dataBuffer,DATA_SIZE);
+// }

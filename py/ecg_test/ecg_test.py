@@ -5,7 +5,10 @@ import scipy.signal as signal
 import scipy.fftpack as fftpack
 
 
-f = open("ecg_test_data2")
+# proper ecgs
+# 4
+
+f = open("ecg_test_data5")
 
 fig_size = (10, 6)
 
@@ -21,7 +24,7 @@ for line in f:
     value.append(int(y))
 
 time = np.array(time)
-value = np.array(value)
+value = np.array(value) * -1
 
 # 1 original signal
 print("========================")
@@ -42,14 +45,18 @@ plot_fft_value = 2.0/N * np.abs(fft_value[0:N//2])
 
 
 # 3 low pass butterworth filter
-# sos = signal.butter(20, 10, 'lowpass', fs=Fs, output='sos')
-# # filtered_value = np.round(signal.sosfilt(sos, value), 4)      # conventional
-# filtered_value = np.round(signal.sosfiltfilt(sos, value), 4)    # zero-phase
-#
-# # 4 fft of the filtered signal
-# filtered_fft_value = fftpack.fft(filtered_value)
-# filtered_plot_fft_value = 2.0/N * np.abs(fft_value[0:N//2])
+sos = signal.butter(10, 10, 'lowpass', fs=Fs, output='sos')
+filtered_value = np.round(signal.sosfiltfilt(sos, value), 4)    # zero-phase
+# filtered_value = np.round(signal.sosfilt(sos, value), 4)      # conventional
 
+
+sos = signal.butter(5, 0.5, 'highpass', fs=Fs, output='sos')
+filtered_value = np.round(signal.sosfiltfilt(sos, filtered_value), 4)    # zero-phase
+
+
+# 4 fft of the filtered signal
+filtered_fft_value = fftpack.fft(filtered_value)
+filtered_plot_fft_value = 2.0/N * np.abs(fft_value[0:N//2])
 
 
 # Output
@@ -68,7 +75,7 @@ plt.subplot(222)
 plt.title("FFT of Original Signal")
 plt.ylabel("ADC Value")
 plt.xlabel("Frequency (Hz)")
-plt.ylim(top=20, bottom=-5)
+plt.ylim(top=100, bottom=-5)
 # plt.plot(fft_freqs, np.abs(fft_value[0:N//2]))
 plt.plot(fft_freqs, 2.0/N * np.abs(fft_value[:N//2]))
 
@@ -86,7 +93,7 @@ plt.subplot(224)
 plt.title("FFT of Filtered Signal")
 plt.ylabel("ADC Value")
 plt.xlabel("Frequency (Hz)")
-plt.ylim(top=5, bottom=-5)
+plt.ylim(top=100, bottom=-5)
 plt.plot(fft_freqs, 2.0/N * np.abs(filtered_fft_value[0:N//2]))
 
 

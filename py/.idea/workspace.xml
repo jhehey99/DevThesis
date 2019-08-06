@@ -1,7 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6ac2d18-2bf9-4879-ad2f-eedededa313d" name="Default Changelist" comment="" />
+    <list default="true" id="c6ac2d18-2bf9-4879-ad2f-eedededa313d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../hardware/child/ppg-arm/platformio.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../hardware/child/ppg-arm/platformio.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hardware/child/ppg-arm/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../hardware/child/ppg-arm/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hardware/child/workspace.code-workspace" beforeDir="false" afterPath="$PROJECT_DIR$/../hardware/child/workspace.code-workspace" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hardware/root/nodemcu/platformio.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../hardware/root/nodemcu/platformio.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecg_test/ecg_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecg_test/ecg_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppg_test/ppg_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppg_test/ppg_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppg_test/ppg_test_data12" beforeDir="false" afterPath="$PROJECT_DIR$/ppg_test/ppg_test_data12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/10" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/11" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/12" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/13" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/13" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/4" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/5" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/6" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/7" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/8" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/9" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/0" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/1" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/11" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/12" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/13" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/13" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/2" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/3" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/4" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/5" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/6" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/7" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/8" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/9" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/0" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/1" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/11" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/12" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/13" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/13" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/2" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/3" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/4" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/5" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/6" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/7" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/8" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/9" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/record_id" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/record_id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/public/result/ppg_arm_fig1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/public/result/ppg_arm_fig1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/public/result/ppg_arm_fig2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/public/result/ppg_arm_fig2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/public/result/ppg_arm_fig3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/public/result/ppg_arm_fig3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/public/result/ppg_leg_fig1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/public/result/ppg_leg_fig1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/public/result/ppg_leg_fig2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/public/result/ppg_leg_fig2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/public/result/ppg_leg_fig3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/public/result/ppg_leg_fig3.svg" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,50 +61,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ppg_test/ppg_processing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1342">
-              <caret line="65" selection-start-line="65" selection-end-line="69" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="995">
-              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test_data2">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6600">
-              <caret line="300" selection-start-line="300" selection-end-line="300" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test_data1">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6534">
-              <caret line="297" selection-start-line="297" selection-end-line="297" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,36 +72,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>25%</find>
-      <find>Systolic Peak P</find>
-      <find>dist_dp</find>
-      <find>Average Distance</find>
-      <find>plt.save</find>
-      <find>ave_ifv_margin</find>
-      <find>np.average(new_inflct_values)</find>
-      <find>ave_ifv_val</find>
-      <find>ave_ifv_low</find>
-      <find>new_inflct_points</find>
-      <find>1.20</find>
-      <find>0.2</find>
-      <find>new</find>
-      <find>systolic peak pro</find>
-      <find>pop(0)</find>
-      <find>Proposed</find>
-      <find># 8</find>
-      <find>'x'</find>
-      <find>systolic</find>
-      <find>test</find>
-      <find>0.8</find>
-      <find>test_</find>
-      <find>figsize</find>
-      <find>minima</find>
-      <find>plt.plot(mi</find>
-      <find>diastolic</find>
-      <find>test_data</find>
+      <find>grad33</find>
+      <find>fig_size</find>
+      <find>time</find>
       <find># 1</find>
-      <find># 3</find>
-      <find>&gt;&gt;&gt;</find>
+      <find>orig_value</find>
+      <find>fft_interp_freqs</find>
+      <find>plot_fft_value</find>
+      <find># 2</find>
+      <find>interp_N</find>
+      <find>amplifi</find>
+      <find>test</find>
+      <find># 4</find>
+      <find>self</find>
+      <find>_</find>
+      <find>hp_</find>
+      <find>gradient</find>
+      <find>====</find>
+      <find>filtered</find>
+      <find>interp1d</find>
+      <find>data</find>
+      <find>grad</find>
+      <find>'x'</find>
+      <find>local_</find>
+      <find>interp_time</find>
+      <find>plt.figure(2</find>
+      <find>systolic proper</find>
+      <find>pre-p</find>
+      <find>systolic</find>
+      <find>500</find>
+      <find>diaf</find>
     </findStrings>
     <replaceStrings>
       <replace>1</replace>
@@ -106,8 +115,14 @@
       <replace>new2_inflct_points</replace>
       <replace>pop()</replace>
       <replace>Initial</replace>
-      <replace>diastolic</replace>
       <replace>systolic</replace>
+      <replace>orig_time</replace>
+      <replace>interp_fft_freqs</replace>
+      <replace>input_value</replace>
+      <replace>interp_fft_values</replace>
+      <replace />
+      <replace>time</replace>
+      <replace>diastolic</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -141,20 +156,27 @@
         <option value="$PROJECT_DIR$/ppg_test/ppg_test_data11" />
         <option value="$PROJECT_DIR$/ppg_test/testtest.py" />
         <option value="$PROJECT_DIR$/ppg_test/ppg_test_data12.py" />
-        <option value="$PROJECT_DIR$/ppg_test/ppg_processing.py" />
-        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data12" />
         <option value="$PROJECT_DIR$/ecg_test/ecg_test_data3" />
         <option value="$PROJECT_DIR$/ecg_test/ecg_test_data1" />
         <option value="$PROJECT_DIR$/ecg_test/ecg_test_data2" />
+        <option value="$PROJECT_DIR$/ecg_test/ecg_test_data4" />
+        <option value="$PROJECT_DIR$/ecg_test/ecg_test_data5" />
+        <option value="$PROJECT_DIR$/ecg_test/ecg_test_data6" />
         <option value="$PROJECT_DIR$/ecg_test/ecg_test.py" />
+        <option value="$PROJECT_DIR$/ppg_test/ppg_processing.py" />
+        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data12" />
+        <option value="$PROJECT_DIR$/interpolation_test/interpolation.py" />
+        <option value="$PROJECT_DIR$/interpolation_test/ppg_interpolate.py" />
+        <option value="$PROJECT_DIR$/ppg/ppg_processing.py" />
+        <option value="$PROJECT_DIR$/ppg/algo" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1672" />
-    <option name="y" value="124" />
-    <option name="width" value="974" />
-    <option name="height" value="1057" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -174,7 +196,7 @@
             <path>
               <item name="py" type="b2602c69:ProjectViewProjectNode" />
               <item name="py" type="462c0819:PsiDirectoryNode" />
-              <item name="ecg_test" type="462c0819:PsiDirectoryNode" />
+              <item name="savitzky_golay_filter_example" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -200,7 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ecg_test">
+  <component name="RunManager" selected="Python.ppg_processing (1)">
     <configuration name="ecg_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -222,7 +244,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gradient_descent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="interpolation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,11 +252,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gradient_descent_example" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interpolation_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradient_descent_example/gradient_descent.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interpolation_test/interpolation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ppg_interpolate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interpolation_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interpolation_test/ppg_interpolate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ppg_processing (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ppg" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ppg/ppg_processing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,55 +328,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ppg_test_fft" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ppg_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ppg_test/ppg_test_fft.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="testtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ppg_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ppg_test/testtest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ecg_test" />
+        <item itemvalue="Python.ppg_processing (1)" />
         <item itemvalue="Python.ppg_processing" />
-        <item itemvalue="Python.testtest" />
-        <item itemvalue="Python.ppg_test_fft" />
-        <item itemvalue="Python.gradient_descent" />
+        <item itemvalue="Python.ppg_interpolate" />
+        <item itemvalue="Python.interpolation" />
+        <item itemvalue="Python.ecg_test" />
       </list>
     </recent_temporary>
   </component>
@@ -331,14 +353,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10800843" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12486828" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.20042872" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.25830653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3954984" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -449,16 +470,6 @@
           <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/savitzky_golay_filter_example/savitzky_golay_filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -628,27 +639,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data12.py" />
-    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data12">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="593" selection-start-line="593" selection-end-line="593" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test_data3">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="282" column="10" lean-forward="true" selection-start-line="282" selection-start-column="10" selection-end-line="282" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_processing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="65" selection-start-line="65" selection-end-line="69" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,10 +660,109 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data12">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6952">
+          <caret line="316" selection-start-line="316" selection-end-line="316" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test_data4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6270">
+          <caret line="285" selection-start-line="285" selection-end-line="285" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test_data6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6402">
+          <caret line="291" selection-start-line="291" selection-end-line="291" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test_data5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6182">
+          <caret line="281" selection-start-line="281" selection-end-line="281" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interpolation_test/interpolation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/axes/_subplots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2237">
+          <caret line="103" column="18" lean-forward="true" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/legend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="1270" selection-start-line="1270" selection-end-line="1270" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg/algo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/savitzky_golay_filter_example/savitzky_golay_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="38" selection-start-line="2" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interpolation_test/ppg_interpolate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="493" lean-forward="true" selection-start-line="493" selection-end-line="493" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppg/ppg_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="995">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="841">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

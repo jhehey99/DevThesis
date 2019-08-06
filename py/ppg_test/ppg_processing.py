@@ -21,6 +21,7 @@ if len(sys.argv) > 1:
 else:
     # no arguments, ran from pycharm pag dito
     data_path = "ppg_test_data12"
+    # data_path = "ppg_test_data_leg1"
     fn_figure = "ppg_leg_"
     show_plot = True
     print("Ran from Pycharm")
@@ -412,8 +413,8 @@ plt.ticklabel_format(style='sci', axis='x', scilimits=(0,0))
 for spt in final_systolic_times:
     plt.axvline(spt, linestyle='--', color='gray')
 
-if reference_point != -1:
-    plt.axvline(reference_time, linestyle='--', color='r')
+# if reference_point != -1:
+#     plt.axvline(reference_time, linestyle='--', color='r')
 
 plt.subplot(212)
 plt.title("Final Diastolic Peaks")
@@ -426,8 +427,8 @@ plt.ticklabel_format(style='sci', axis='x', scilimits=(0,0))
 for dpt in final_diastolic_times:
     plt.axvline(dpt, linestyle='--', color='gray')
 
-if reference_point != -1:
-    plt.axvline(reference_time, linestyle='--', color='r')
+# if reference_point != -1:
+#     plt.axvline(reference_time, linestyle='--', color='r')
 
 # end figure 3
 plt.tight_layout()
