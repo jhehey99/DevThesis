@@ -1,48 +1,46 @@
 <!doctype html>
 <html>
-	<head>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-        <link rel="stylesheet" href="/css/svgstyles.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <h3 class="title" style="">PPG LEG DATA </h3>
-        <h4 style="text-align:center;">Record ID </h4>
-        <h4 style="text-align:center;" class="record-id"></h4>
-        <script>
-            $.ajax({
-                url: '/recordedId',
-                complete: function(data) {
-                    console.log(data);
-                    $('h4.record-id').text(data.responseText);
-                }
-            });
-        </script>
-	</head>
 
-	<body>
-        <div class="center">
-            <h4 style="display:block; text-align:center;">Systolic Peak Finding</h4>
-            <div style="margin-bottom: 1%; margin-top: 2%;">
-                <svg width="1000" height="600">       
-                    <image xlink:href="/result/ppg_leg_fig1.svg" width="1000" height="600"/>    
-                </svg>
-            </div>
-            <h4 style="display:block; text-align:center;">Diastolic Peak Finding</h4>
-            <div style="margin-bottom: 1%; margin-top: 2%;">
-                 <svg width="1000" height="600">       
-                    <image xlink:href="/result/ppg_leg_fig2.svg" width="1000" height="600"/>    
-                </svg>
-            </div>
-            <h4 style="display:block; text-align:center;">Systolic and Diastolic Peak Matching</h4>
-            <div style="margin-bottom: 5%;">
-                 <svg width="1000" height="600">       
-                    <image xlink:href="/result/ppg_leg_fig3.svg" width="1000" height="600"/>    
-                </svg>
-            </div>
+<head>
+    <script src="/js/vendor/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/vendor/materialize.min.css">
+    <link rel="stylesheet" href="/css/svgstyles.css">
+    <script src="/js/vendor/materialize.min.js"></script>
+    <h3 class="title" style="">PPG LEG DATA </h3>
+    <h4 style="text-align:center;">Record ID </h4>
+    <h4 style="text-align:center;" class="record-id"></h4>
+    <script>
+        $.ajax({
+            url: '/recordedId',
+            complete: function (data) {
+                console.log(data);
+                $('h4.record-id').text(data.responseText);
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <div class="center">
+        <h4 style="display:block; text-align:center;">Systolic Peak Finding</h4>
+        <div style="margin-bottom: 1%; margin-top: 2%;">
+            <svg width="1000" height="600">
+                <image xlink:href="/result/ppg_leg_fig1.svg" width="1000" height="600" />
+            </svg>
         </div>
-	</body>
+        <h4 style="display:block; text-align:center;">Diastolic Peak Finding</h4>
+        <div style="margin-bottom: 1%; margin-top: 2%;">
+            <svg width="1000" height="600">
+                <image xlink:href="/result/ppg_leg_fig2.svg" width="1000" height="600" />
+            </svg>
+        </div>
+        <h4 style="display:block; text-align:center;">Systolic and Diastolic Peak Matching</h4>
+        <div style="margin-bottom: 5%;">
+            <svg width="1000" height="600">
+                <image xlink:href="/result/ppg_leg_fig3.svg" width="1000" height="600" />
+            </svg>
+        </div>
+    </div>
+</body>
+
 </html>
-
-
-
-

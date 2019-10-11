@@ -9,7 +9,7 @@
       Plotly.plot('ecg_graph', [{
         y: [0],
         mode: 'lines',
-        line: {color: '#80CAF6'}
+        line: { color: '#80CAF6' }
       }]);
 
       var maxEntryCount = 300;
@@ -17,26 +17,13 @@
       var timeEntries = [];
       var valueEntries = [];
 
-      socket.on('update ecg', function(msg) {
-        // add entries
-        msg.data.forEach(function(data) {
-          timeEntries.push(data.time);
-          valueEntries.push(data.value);
-          entryCount ++;
-        })
-
-        // pag sumobra na, remove first element
-        while(entryCount > maxEntryCount) {
-          timeEntries.shift();
-          valueEntries.shift();
-          entryCount --;
-        }
-
-        // console.log(allEntries);
+      socket.on('update ecg', function (msg) {
+        timeEntries = msg.data.times;
+        valueEntries = msg.data.values;
       });
 
       // update the display ecg_graph
-      setInterval(function() {
+      setInterval(function () {
         var data_update = {
           x: [timeEntries],
           y: [valueEntries]

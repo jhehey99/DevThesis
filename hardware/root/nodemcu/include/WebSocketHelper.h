@@ -5,63 +5,159 @@
 
 /* Initialization */
 WebSocketsClient webSocket;
-const char* socketUrl   = "192.168.41.1";
-const char* socketEvent = "send";
-const int   socketPort  = 6969;
-const int   socketDelay = 250;
-const int   socketRetry = 50;
-bool socketConnected    = false;
+void connectToWebSocket();
+
+const char *socketUrl = "192.168.204.1";
+const int socketPort = 6969;
+const int socketRetry = 50;
+bool socketConnected = false;
+bool socketVerified = false;
+String socketId;
+
+/* SocketIO Events */
+const char *socketSendEvent = "send";
+const char *socketVerifyEvent = "verify";
+const char *socketVerifiedEvent = "verified";
+const char *bloodPressureEvent = "bp";
+const char *oxygenSaturationEvent = "bos";
+
+/* Verify Signal Event Declarations */
+void (*SendBloodPressureSignal)();
+void (*SendOxygenSaturationSignal)();
+
+/* Payload */
+typedef struct
+{
+  String Event;
+  String Message;
+} Payload;
 
 /* Function Definitions */
-void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
-  switch(type) {
-    case WStype_DISCONNECTED:
-      Serial.printf("[WSc] Disconnected!\n");
-      socketConnected = false;
-      break;
-    case WStype_CONNECTED:
-      Serial.printf("\n[WSc] Connected to url: %s\n",  payload);
-      socketConnected = true;
-      // socket.io upgrade confirmation message (required)
-      webSocket.sendTXT("5");
-      break;
+Payload parsePayload(uint8_t *payload)
+{
+  Payload p;
+  while (*payload != ']')
+  {
+    if (*payload == '[')
+    {
+      payload += 2;
+      while (*payload != '"')
+      {
+        p.Event.concat((char)*payload);
+        payload++;
+      }
+    }
+    else if (*payload == ',')
+    {
+      payload += 2;
+      while (*payload != '"')
+      {
+        p.Message.concat((char)*payload);
+        payload++;
+      }
+    }
+    payload++;
+  }
+  return p;
+}
+
+void verifySocket(const Payload &payload)
+{
+  if (payload.Event == socketVerifiedEvent && !socketVerified)
+  {
+    socketId = payload.Message;
+    socketVerified = true;
+    Serial.println("Nodemcu Socket has been verified...");
   }
 }
 
-void connectToWebSocket() {
+void verifySignal(const Payload &payload)
+{
+  if (payload.Event == bloodPressureEvent && SendBloodPressureSignal)
+  {
+    // send to ppg arm node ir led signal only through rf network
+    (*SendBloodPressureSignal)();
+  }
+  else if (payload.Event == oxygenSaturationEvent && SendOxygenSaturationSignal)
+  {
+    // send to ppg arm node ir + red led signals through rf network
+    (*SendOxygenSaturationSignal)();
+  }
+}
+
+void websocketSendEvent(WStype_t type, uint8_t *payload, size_t length)
+{
+  switch (type)
+  {
+  case WStype_DISCONNECTED:
+    Serial.printf("[WSc] Disconnected!\n");
+    socketConnected = false;
+    socketVerified = false;
+    connectToWebSocket();
+    break;
+  case WStype_CONNECTED:
+    Serial.printf("\n[WSc] Connected to url: %s\n", payload);
+    socketConnected = true;
+    // socket.io upgrade confirmation message (required)
+    webSocket.sendTXT("5");
+    break;
+  case WStype_TEXT:
+    // Serial.printf("[WSc] get text: %s\n", payload);
+    Payload parsedPayload = parsePayload(payload);
+    verifySocket(parsedPayload);
+    verifySignal(parsedPayload);
+    break;
+  }
+}
+
+void connectToWebSocket()
+{
   int retryCount = 0;
-  bool success = true;
   webSocket.beginSocketIO(socketUrl, socketPort);
-  webSocket.onEvent(webSocketEvent);
+  webSocket.onEvent(websocketSendEvent);
   Serial.print("Connecting to WebSocket");
-  while(!socketConnected) { 
+  while (!socketConnected)
+  {
+    retryCount++;
     webSocket.loop();
     Serial.print('.');
-    if(retryCount >= socketRetry) {
-      Serial.println("\nMax retries reached...");
-      success = false;
-      break;
+    if (retryCount >= socketRetry)
+    {
+      retryCount = 0;
+      Serial.println("Failed to connect to WebSocket...");
+      Serial.println("Retrying to connect to WebSocket...");
     }
-    delay(socketDelay);
+    delay(10);
   }
-  if(success) {
-    Serial.println("\nSuccessfully connected to WebSocket...");
-  } else {
-    Serial.println("Failed to connect to WebSocket...");
-  }
-  delay(1000); // small pause
+  Serial.println("\nSuccessfully connected to WebSocket...");
+  delay(100); // small pause
 }
 
-void emit(const String& event, const String& message, bool isJson = false) {
-  if(socketConnected) {
+void emit(const String &event, const String &message, bool isJson = false)
+{
+  if (socketConnected)
+  {
     String txt("42[\"" + event + "\",");
-    if(isJson) txt += message + "]";
-    else txt += "\"" + message + "\"]";
+    if (isJson)
+      txt += message + "]";
+    else
+      txt += "\"" + message + "\"]";
     webSocket.sendTXT(txt);
-  } else {
+  }
+  else
+  {
     Serial.println("[WSc] can't emit, webSocket not connected...");
   }
 }
 
+void verifySocket()
+{
+  // para lang madetermine anong socket id ng nodemcu socket
+  if (socketConnected && !socketVerified)
+  {
+    emit(socketVerifyEvent, "nodemcu");
+    // webSocket.loop();
+  }
+}
 
 #endif

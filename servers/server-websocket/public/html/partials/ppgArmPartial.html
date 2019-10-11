@@ -1,7 +1,7 @@
 <div>
-	<h1>PPG ARM </h1>
+	<h1>PPG ARM IR LED SIGNAL</h1>
 	<div style="margin-top: 1%; margin-bottom: 1%;">
-  		<button type="button" onclick="viewPpgArmData();" class="btn btn-primary">View Latest Signal</button>
+		<button type="button" onclick="viewPpgArmData();" class="btn btn-primary">View Latest Signal</button>
 	</div>
 
 	<div id="ppgArm_graph"></div>
@@ -16,35 +16,21 @@
 			Plotly.plot('ppgArm_graph', [{
 				y: [0],
 				mode: 'lines',
-				line: {color: '#80CAF6'}
+				line: { color: '#80CAF6' }
 			}]);
 
-			var maxEntryCount = 250;
+			var maxEntryCount = 200;
 			var entryCount = 0;
 			var timeEntries = [];
 			var valueEntries = [];
 
-			socket.on('update ppg arm', function(msg) {
-				// console.log("update ppg arm");
-				// add entries
-				msg.data.forEach(function(data) {
-					timeEntries.push(data.time);
-					valueEntries.push(data.value);
-					entryCount ++;
-				})
-
-				// pag sumobra na, remove first element
-				while(entryCount > maxEntryCount) {
-					timeEntries.shift();
-					valueEntries.shift();
-					entryCount --;
-				}
-
-				// console.log(allEntries);
+			socket.on('update ppg arm', function (msg) {
+				timeEntries = msg.data.times;
+				valueEntries = msg.data.values;
 			});
 
 			// update the display ppgArm_graph
-			setInterval(function() {
+			setInterval(function () {
 				var data_update = {
 					x: [timeEntries],
 					y: [valueEntries]

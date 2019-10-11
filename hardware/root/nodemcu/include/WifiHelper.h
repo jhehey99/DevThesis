@@ -6,34 +6,31 @@
 
 /* Initialization */
 ESP8266WiFiMulti wiFiMulti;
-const char* ssid = "Connectify-me";
-const char* pass = "password";
-const int wifiRetry  = 30;
-const int wifiDelay = 250;
+const char *ssid = "Connectify-me";
+const char *pass = "password";
+const int wifiRetry = 30;
 bool wifiConnected = false;
 
 /* Function Definitions */
-void connectToWifi() {
+void connectToWifi()
+{
   int retryCount = 0;
-  bool success = true;
   wiFiMulti.addAP(ssid, pass);
   Serial.print("Connecting to WIFI");
-  while(wiFiMulti.run() != WL_CONNECTED) {
+  while (wiFiMulti.run() != WL_CONNECTED)
+  {
     Serial.print('.');
-    if(retryCount >= wifiRetry) {
-      Serial.println("\nMax retries reached...");
-      success = false;
-      break;
+    if (retryCount >= wifiRetry)
+    {
+      retryCount = 0;
+      Serial.println("Failed to connect to WIFI...");
+      Serial.println("Retrying to connect to WIFI...");
     }
-    delay(wifiDelay);
+    delay(10);
   }
-  if(success) {
-    Serial.println("\nSuccessfully connected to WIFI...");
-    wifiConnected = true;
-  } else {
-    Serial.println("Failed to connect to WIFI...");
-  }
-  delay(1000); // small pause
+  Serial.println("\nSuccessfully connected to WIFI...");
+  wifiConnected = true;
+  delay(100); // small pause
 }
 
 #endif

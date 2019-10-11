@@ -2,51 +2,781 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6ac2d18-2bf9-4879-ad2f-eedededa313d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../hardware/child/ppg-arm/include/RFHelper.h" beforeDir="false" afterPath="$PROJECT_DIR$/../hardware/child/ppg-arm/include/RFHelper.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hardware/child/ppg-arm/platformio.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../hardware/child/ppg-arm/platformio.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hardware/child/ppg-arm/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../hardware/child/ppg-arm/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hardware/child/workspace.code-workspace" beforeDir="false" afterPath="$PROJECT_DIR$/../hardware/child/workspace.code-workspace" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hardware/root/nodemcu/include/WebSocketHelper.h" beforeDir="false" afterPath="$PROJECT_DIR$/../hardware/root/nodemcu/include/WebSocketHelper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hardware/root/nodemcu/include/WifiHelper.h" beforeDir="false" afterPath="$PROJECT_DIR$/../hardware/root/nodemcu/include/WifiHelper.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hardware/root/nodemcu/platformio.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../hardware/root/nodemcu/platformio.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hardware/root/nodemcu/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../hardware/root/nodemcu/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/py.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/py.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecg_test/ecg_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecg_test/ecg_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppg_test/ppg_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppg_test/ppg_processing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppg_test/ppg_test_data12" beforeDir="false" afterPath="$PROJECT_DIR$/ppg_test/ppg_test_data12" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/10" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/11" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/11" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/12" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/12" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/13" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/13" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/4" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/5" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/6" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/7" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/8" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/9" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/0" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/1" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/11" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/11" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/12" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/12" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/13" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/13" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/2" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/3" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/4" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/5" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/6" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/7" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/8" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/9" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/0" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/1" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/11" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/11" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/12" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/12" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/13" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/13" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/2" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/3" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/4" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/5" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/6" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/7" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/8" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/9" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/record_id" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/files/record_id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppg/ppg_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppg/ppg_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/accepts/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/accepts/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/accepts/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/accepts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/accepts/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/after/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/after/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/after/LICENCE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/after/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/after/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/after/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/after/test/after-test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/arraybuffer.slice/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/arraybuffer.slice/LICENCE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/arraybuffer.slice/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/arraybuffer.slice/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/arraybuffer.slice/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/arraybuffer.slice/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/arraybuffer.slice/test/slice-buffer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/async-limiter/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/async-limiter/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/async-limiter/coverage/coverage.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/async-limiter/coverage/lcov-report/async-throttle/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/async-limiter/coverage/lcov-report/async-throttle/index.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/async-limiter/coverage/lcov-report/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/async-limiter/coverage/lcov-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/async-limiter/coverage/lcov-report/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/async-limiter/coverage/lcov-report/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/async-limiter/coverage/lcov-report/sort-arrow-sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/async-limiter/coverage/lcov-report/sorter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/async-limiter/coverage/lcov.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/async-limiter/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/async-limiter/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/async-limiter/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/backo2/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/backo2/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/backo2/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/backo2/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/backo2/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/backo2/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/backo2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/backo2/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/base64-arraybuffer/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/base64-arraybuffer/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/base64-arraybuffer/LICENSE-MIT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/base64-arraybuffer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/base64-arraybuffer/lib/base64-arraybuffer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/base64-arraybuffer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/base64id/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/base64id/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/base64id/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/base64id/lib/base64id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/base64id/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/better-assert/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/better-assert/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/better-assert/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/better-assert/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/better-assert/example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/better-assert/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/better-assert/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/blob/.idea/blob.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/blob/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/blob/.idea/markdown-navigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/blob/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/blob/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/blob/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/blob/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/blob/.zuul.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/blob/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/blob/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/blob/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/blob/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/blob/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/blob/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/blob/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/callsite/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/callsite/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/callsite/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/callsite/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/callsite/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/callsite/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/component-bind/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/component-bind/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/component-bind/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/component-bind/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/component-bind/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/component-bind/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/component-bind/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/component-emitter/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/component-emitter/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/component-emitter/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/component-emitter/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/component-emitter/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/component-inherit/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/component-inherit/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/component-inherit/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/component-inherit/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/component-inherit/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/component-inherit/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/component-inherit/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/component-inherit/test/inherit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/cookie/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/cookie/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/cookie/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/cookie/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/cookie/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/debug/dist/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/debug/src/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/engine.io.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/lib/socket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/lib/transport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/lib/transports/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/lib/transports/polling-jsonp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/lib/transports/polling-xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/lib/transports/polling.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/lib/transports/websocket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/lib/xmlhttprequest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-parser/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-parser/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-parser/lib/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-parser/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-parser/lib/keys.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-parser/lib/utf8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io-parser/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/lib/engine.io.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/lib/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/lib/socket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/lib/transport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/lib/transports/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/lib/transports/polling-jsonp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/lib/transports/polling-xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/lib/transports/polling.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/lib/transports/websocket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/engine.io/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/fs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/fs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/has-binary2/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/has-binary2/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/has-binary2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/has-binary2/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/has-binary2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/has-cors/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/has-cors/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/has-cors/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/has-cors/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/has-cors/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/has-cors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/has-cors/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/has-cors/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/indexof/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/indexof/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/indexof/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/indexof/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/indexof/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/indexof/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/isarray/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/isarray/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/isarray/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/mime-db/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/mime-db/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/mime-db/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/mime-db/db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/mime-db/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/mime-db/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/mime-types/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/mime-types/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/mime-types/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/mime-types/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/mime-types/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/negotiator/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/negotiator/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/negotiator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/negotiator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/negotiator/lib/charset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/negotiator/lib/encoding.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/negotiator/lib/language.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/negotiator/lib/mediaType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/negotiator/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/object-component/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/object-component/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/object-component/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/object-component/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/object-component/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/object-component/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/object-component/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/object-component/test/object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/parseqs/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/parseqs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/parseqs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/parseqs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/parseqs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/parseqs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/parseqs/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/parseuri/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/parseuri/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/parseuri/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/parseuri/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/parseuri/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/parseuri/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/parseuri/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/parseuri/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-adapter/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-adapter/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-adapter/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-adapter/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-adapter/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/dist/socket.io.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/dist/socket.io.dev.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/dist/socket.io.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/dist/socket.io.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/dist/socket.io.slim.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/dist/socket.io.slim.dev.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/dist/socket.io.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/dist/socket.io.slim.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/lib/manager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/lib/on.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/lib/socket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/lib/url.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/binary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/is-buffer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io-parser/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io/lib/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io/lib/namespace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io/lib/parent-namespace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io/lib/socket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/socket.io/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/to-array/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/to-array/LICENCE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/to-array/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/to-array/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/to-array/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/ws/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/ws/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/ws/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/ws/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/ws/lib/buffer-util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/ws/lib/constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/ws/lib/event-target.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/ws/lib/extension.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/ws/lib/permessage-deflate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/ws/lib/receiver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/ws/lib/sender.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/ws/lib/validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/ws/lib/websocket-server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/ws/lib/websocket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/ws/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/xmlhttprequest-ssl/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/xmlhttprequest-ssl/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/xmlhttprequest-ssl/autotest.watchr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/xmlhttprequest-ssl/example/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/xmlhttprequest-ssl/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/xmlhttprequest-ssl/tests/test-constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/xmlhttprequest-ssl/tests/test-events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/xmlhttprequest-ssl/tests/test-exceptions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/xmlhttprequest-ssl/tests/test-headers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/xmlhttprequest-ssl/tests/test-redirect-302.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/xmlhttprequest-ssl/tests/test-redirect-303.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/xmlhttprequest-ssl/tests/test-redirect-307.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/xmlhttprequest-ssl/tests/test-request-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/xmlhttprequest-ssl/tests/test-request-protocols.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/yeast/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/yeast/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/yeast/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/node_modules/yeast/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/udpclient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-streaming/udpserver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ecg/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgarm/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/ppgleg/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/files/record_id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/iosocket.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/iosocket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/.bin/atob" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/.bin/atob.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/.bin/is-ci" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/.bin/is-ci.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/.bin/nodetouch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/.bin/nodetouch.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/.bin/nopt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/.bin/nopt.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/.bin/rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/.bin/rc.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/.bin/which" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/.bin/which.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/accepts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/accepts/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/async-limiter/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/async-limiter/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/async-limiter/coverage/coverage.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/async-limiter/coverage/lcov-report/async-throttle/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/async-limiter/coverage/lcov-report/async-throttle/index.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/async-limiter/coverage/lcov-report/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/async-limiter/coverage/lcov-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/async-limiter/coverage/lcov-report/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/async-limiter/coverage/lcov-report/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/async-limiter/coverage/lcov-report/sort-arrow-sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/async-limiter/coverage/lcov-report/sorter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/async-limiter/coverage/lcov.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/async-limiter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/async-limiter/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/async-limiter/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/async-limiter/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/base64id/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/base64id/lib/base64id.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/base64id/lib/base64id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/base64id/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/base64id/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/debug/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/debug/src/inspector-log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/body-parser/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/chokidar/lib/fsevents-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/chokidar/lib/fsevents-handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/chokidar/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/chokidar/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/component-emitter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/component-emitter/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/cookie/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/cookie/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/cookie/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/cookie/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/cookie/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/cookie/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/cookie/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/cookie/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/debug/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/debug/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/debug/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/debug/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/debug/dist/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/debug/src/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/debug/src/browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/debug/src/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/debug/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/debug/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/debug/src/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/debug/src/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/engine.io.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/engine.io.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/lib/socket.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/lib/socket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/lib/transport.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/lib/transport.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/lib/transports/polling-xhr.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/lib/transports/polling-xhr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/lib/transports/websocket.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/lib/transports/websocket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/debug/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/debug/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/debug/src/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/debug/src/browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/debug/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/debug/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/debug/src/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/debug/src/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/ms/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/ms/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/ms/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/node_modules/ms/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-parser/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-parser/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-parser/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-parser/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/lib/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/lib/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/debug/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/debug/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/debug/src/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/debug/src/browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/debug/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/debug/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/debug/src/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/debug/src/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/ms/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/ms/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/ms/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/node_modules/ms/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/engine.io/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/debug/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/debug/src/inspector-log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/expand-brackets/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/cookie/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/cookie/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/cookie/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/cookie/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/cookie/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/debug/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/debug/src/inspector-log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/express/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/debug/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/debug/src/inspector-log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/finalhandler/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/graceful-fs/graceful-fs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/graceful-fs/graceful-fs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/graceful-fs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/graceful-fs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/graceful-fs/polyfills.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/graceful-fs/polyfills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/is-retry-allowed/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/is-retry-allowed/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/is-retry-allowed/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/is-retry-allowed/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/isarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/isarray/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/mime-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/mime-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ms/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ms/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ms/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ms/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/nodemon/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/nodemon/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/nodemon/lib/nodemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/nodemon/lib/nodemon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/nodemon/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/nodemon/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/semver/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/semver/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/semver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/semver/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/src/inspector-log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/send/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/debug/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/debug/src/inspector-log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/snapdragon/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/dist/socket.io.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/dist/socket.io.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/dist/socket.io.dev.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/dist/socket.io.dev.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/dist/socket.io.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/dist/socket.io.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/dist/socket.io.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/dist/socket.io.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/dist/socket.io.slim.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/dist/socket.io.slim.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/dist/socket.io.slim.dev.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/dist/socket.io.slim.dev.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/dist/socket.io.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/dist/socket.io.slim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/dist/socket.io.slim.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/dist/socket.io.slim.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/debug/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/debug/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/debug/src/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/debug/src/browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/debug/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/debug/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/debug/src/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/debug/src/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/ms/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/ms/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/ms/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/node_modules/ms/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/debug/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/debug/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/debug/src/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/debug/src/browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/debug/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/debug/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/debug/src/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/debug/src/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/ms/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/ms/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/ms/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/node_modules/ms/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/socket.io/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/debug/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/debug/src/inspector-log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/undefsafe/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/upath/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/upath/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/upath/build/code/upath.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/upath/build/code/upath.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/upath/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/upath/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/upath/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/upath/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/lib/buffer-util.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/lib/buffer-util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/lib/event-target.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/lib/event-target.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/lib/extension.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/lib/extension.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/lib/permessage-deflate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/lib/permessage-deflate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/lib/receiver.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/lib/receiver.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/lib/sender.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/lib/sender.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/lib/websocket-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/lib/websocket-server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/lib/websocket.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/lib/websocket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/node_modules/ws/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/public/html/data/empty.html" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/public/html/data/empty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/public/html/data/ppgarmdata.html" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/public/html/data/ppgarmdata.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/public/html/data/ppglegdata.html" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/public/html/data/ppglegdata.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/public/html/nav/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/public/html/nav/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/public/html/partials/ecgPartial.html" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/public/html/partials/ecgPartial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/public/html/partials/ppgArmPartial.html" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/public/html/partials/ppgArmPartial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/public/html/partials/ppgLegPartial.html" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/public/html/partials/ppgLegPartial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/public/html/raw.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servers/server-websocket/public/js/navEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/public/js/navEvent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../servers/server-websocket/public/result/ppg_arm_fig1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/public/result/ppg_arm_fig1.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../servers/server-websocket/public/result/ppg_arm_fig2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/public/result/ppg_arm_fig2.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../servers/server-websocket/public/result/ppg_arm_fig3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../servers/server-websocket/public/result/ppg_arm_fig3.svg" afterDir="false" />
@@ -60,9 +790,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -70,143 +797,16 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>grad33</find>
-      <find>fig_size</find>
-      <find>time</find>
-      <find># 1</find>
-      <find>orig_value</find>
-      <find>fft_interp_freqs</find>
-      <find>plot_fft_value</find>
-      <find># 2</find>
-      <find>interp_N</find>
-      <find>amplifi</find>
-      <find>test</find>
-      <find># 4</find>
-      <find>self</find>
-      <find>_</find>
-      <find>hp_</find>
-      <find>gradient</find>
-      <find>====</find>
-      <find>filtered</find>
-      <find>interp1d</find>
-      <find>data</find>
-      <find>grad</find>
-      <find>'x'</find>
-      <find>local_</find>
-      <find>interp_time</find>
-      <find>plt.figure(2</find>
-      <find>systolic proper</find>
-      <find>pre-p</find>
-      <find>systolic</find>
-      <find>500</find>
-      <find>diaf</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>1</replace>
-      <replace>vmargin</replace>
-      <replace>peak_ave_value</replace>
-      <replace>subplot(32</replace>
-      <replace>subplot(22</replace>
-      <replace>ADC Value</replace>
-      <replace>ave_ifv_margin</replace>
-      <replace>ave_ifv_low</replace>
-      <replace>new2_inflct_points</replace>
-      <replace>pop()</replace>
-      <replace>Initial</replace>
-      <replace>systolic</replace>
-      <replace>orig_time</replace>
-      <replace>interp_fft_freqs</replace>
-      <replace>input_value</replace>
-      <replace>interp_fft_values</replace>
-      <replace />
-      <replace>time</replace>
-      <replace>diastolic</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/gradient_descent_example/gradient_descent_example.py" />
-        <option value="$PROJECT_DIR$/regression/test.py" />
-        <option value="$PROJECT_DIR$/savitzky_golay_filter_example/savitzky_golay_filter.py" />
-        <option value="$PROJECT_DIR$/ppg_test/ppg_test1.py" />
-        <option value="$PROJECT_DIR$/ppg_test/ppg_idle_test_data1" />
-        <option value="$PROJECT_DIR$/filter_test/butterworth.py" />
-        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data1" />
-        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data2" />
-        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data4" />
-        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data3" />
-        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data5" />
-        <option value="$PROJECT_DIR$/gradient_descent_example/gradient_descent.py" />
-        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data6" />
-        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data7" />
-        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data8" />
-        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data_leg1" />
-        <option value="$PROJECT_DIR$/ppg_test/nodetest.py" />
-        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data9" />
-        <option value="$PROJECT_DIR$/ppg_test/FFormatter.py" />
-        <option value="$PROJECT_DIR$/ppg_test/__init__.py" />
-        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data10" />
-        <option value="$PROJECT_DIR$/ppg_test/ppg_test_fft.py" />
-        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data11" />
-        <option value="$PROJECT_DIR$/ppg_test/testtest.py" />
-        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data12.py" />
-        <option value="$PROJECT_DIR$/ecg_test/ecg_test_data3" />
-        <option value="$PROJECT_DIR$/ecg_test/ecg_test_data1" />
-        <option value="$PROJECT_DIR$/ecg_test/ecg_test_data2" />
-        <option value="$PROJECT_DIR$/ecg_test/ecg_test_data4" />
-        <option value="$PROJECT_DIR$/ecg_test/ecg_test_data5" />
-        <option value="$PROJECT_DIR$/ecg_test/ecg_test_data6" />
-        <option value="$PROJECT_DIR$/ecg_test/ecg_test.py" />
-        <option value="$PROJECT_DIR$/ppg_test/ppg_processing.py" />
-        <option value="$PROJECT_DIR$/ppg_test/ppg_test_data12" />
-        <option value="$PROJECT_DIR$/interpolation_test/interpolation.py" />
-        <option value="$PROJECT_DIR$/interpolation_test/ppg_interpolate.py" />
-        <option value="$PROJECT_DIR$/ppg/ppg_processing.py" />
-        <option value="$PROJECT_DIR$/ppg/algo" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
-  </component>
+  <component name="ProjectId" id="1PXUWHl6B6wHuCW1yNMOQ76z4kV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="py" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="py" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py" type="462c0819:PsiDirectoryNode" />
-              <item name="savitzky_golay_filter_example" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -222,7 +822,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ppg_processing (1)">
+  <component name="RunManager" selected="Python.ecg_test (1)">
+    <configuration name="ecg_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ecg" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ecg/ecg_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ecg_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -244,7 +865,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="interpolation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="plot3d_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -252,11 +873,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interpolation_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ecg_testinggggggg" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interpolation_test/interpolation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ecg_testinggggggg/plot3d_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,28 +886,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ppg_interpolate" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interpolation_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interpolation_test/ppg_interpolate.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ppg_processing (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ppg_processing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -307,7 +907,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ppg_processing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pywavelet_cwt (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -315,11 +915,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ppg_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ecg_testinggggggg" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ppg_test/ppg_processing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ecg_testinggggggg/pywavelet_cwt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -330,11 +930,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ppg_processing (1)" />
+        <item itemvalue="Python.ecg_test (1)" />
         <item itemvalue="Python.ppg_processing" />
-        <item itemvalue="Python.ppg_interpolate" />
-        <item itemvalue="Python.interpolation" />
+        <item itemvalue="Python.pywavelet_cwt (1)" />
         <item itemvalue="Python.ecg_test" />
+        <item itemvalue="Python.plot3d_test" />
       </list>
     </recent_temporary>
   </component>
@@ -351,423 +951,17 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1066" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12486828" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.25830653" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3954984" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.3279743" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3290461" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="new_inflct_points[i]" language="Python" />
-        <watch expression="new_inflct_points" language="Python" />
-        <watch expression="new2_inflct_points" language="Python" />
-        <watch expression="diff_ifp" language="Python" />
-        <watch expression="diastolic_points" language="Python" />
-        <watch expression="abs(new_inflct_points[i + 1] - new_inflct_points[i])" language="Python" />
-        <watch expression="ifp_d" language="Python" />
-        <watch expression="i" language="Python" />
-        <watch expression="j" language="Python" />
-        <watch expression="skip" language="Python" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>skip</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>new2_inflct_points</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>j</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>new_inflct_points</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>i</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>new_inflct_points[i]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>abs(new_inflct_points[i + 1] - new_inflct_points[i])</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>ifp_d</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>diastolic_points</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>diff_ifp</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/regression/bidmc/bidmc01.hea">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regression/bidmc/bidmc01.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regression/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="e#134#152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regression/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_savgol_filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filter_test/butterworth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#6#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_idle_test_data1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="314" selection-start-line="314" selection-end-line="314" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="310" selection-start-line="310" selection-end-line="310" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="314" selection-start-line="314" selection-end-line="314" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="296" column="10" selection-end-line="312" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="295" column="10" selection-start-line="295" selection-start-column="10" selection-end-line="295" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data5">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="313" selection-start-line="313" selection-end-line="313" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/fig1.html" />
-    <entry file="file://$PROJECT_DIR$/ppg_test/fig1" />
-    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data6">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="296" selection-start-line="296" selection-end-line="296" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradient_descent_example/gradient_descent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data7">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="289" selection-start-line="289" selection-end-line="289" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data8">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="278" selection-start-line="278" selection-end-line="278" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data_leg1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="311" selection-start-line="311" selection-end-line="311" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/nodetest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data9">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="316" selection-start-line="316" selection-end-line="316" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/ticker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="685" selection-start-line="685" selection-end-line="685" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/FFormatter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_fft.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="136" selection-start-line="115" selection-end-line="136" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data10">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="317" column="9" selection-start-line="317" selection-start-column="9" selection-end-line="317" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data11">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="321" selection-start-line="321" selection-end-line="321" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/testtest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data12.py" />
-    <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test_data3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="282" column="10" lean-forward="true" selection-start-line="282" selection-start-column="10" selection-end-line="282" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test_data2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6600">
-          <caret line="300" selection-start-line="300" selection-end-line="300" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test_data1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6534">
-          <caret line="297" selection-start-line="297" selection-end-line="297" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_test_data12">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6952">
-          <caret line="316" selection-start-line="316" selection-end-line="316" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test_data4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6270">
-          <caret line="285" selection-start-line="285" selection-end-line="285" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test_data6">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6402">
-          <caret line="291" selection-start-line="291" selection-end-line="291" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test_data5">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6182">
-          <caret line="281" selection-start-line="281" selection-end-line="281" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interpolation_test/interpolation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/axes/_subplots.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg_test/ppg_processing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2237">
-          <caret line="103" column="18" lean-forward="true" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/legend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="1270" selection-start-line="1270" selection-end-line="1270" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg/algo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/savitzky_golay_filter_example/savitzky_golay_filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="38" selection-start-line="2" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interpolation_test/ppg_interpolate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="493" lean-forward="true" selection-start-line="493" selection-end-line="493" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppg/ppg_processing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecg_test/ecg_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

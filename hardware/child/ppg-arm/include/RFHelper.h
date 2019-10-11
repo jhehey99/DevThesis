@@ -21,7 +21,8 @@
   const uint16_t rootNode       = 00;
   // const uint16_t ecgNode        = 01;
   const uint16_t ppgArmNode     = 02;
-  // const uint16_t ppgLegNode     = 03;
+  const uint16_t ppgLegNode     = 03;
+  const uint16_t ppgArmNodeRed  = 04;
 
   /* Buffer */
   char dataBuffer[DATA_SIZE] = { 0 };

@@ -1,7 +1,7 @@
 <div>
 	<h1>PPG LEG </h1>
 	<div style="margin-top: 1%; margin-bottom: 1%;">
-  		<button type="button" onclick="viewPpgLegData();" class="btn btn-primary">View Latest Signal</button>
+		<button type="button" onclick="viewPpgLegData();" class="btn btn-primary">View Latest Signal</button>
 	</div>
 
 	<div id="ppgLeg_graph"></div>
@@ -16,7 +16,7 @@
 			Plotly.plot('ppgLeg_graph', [{
 				y: [0],
 				mode: 'lines',
-				line: {color: '#80CAF6'}
+				line: { color: '#80CAF6' }
 			}]);
 
 			var maxEntryCount = 250;
@@ -24,32 +24,18 @@
 			var timeEntries = [];
 			var valueEntries = [];
 
-			socket.on('update ppg leg', function(msg) {
-				// console.log(entryCount);
-				// add entries
-				msg.data.forEach(function(data) {
-					timeEntries.push(data.time);
-					valueEntries.push(data.value);
-					entryCount ++;
-				})
-
-				// pag sumobra na, remove first element
-				while(entryCount > maxEntryCount) {
-					timeEntries.shift();
-					valueEntries.shift();
-					entryCount --;
-				}
-
-				// console.log(allEntries);
+			socket.on('update ppg leg', function (msg) {
+				timeEntries = msg.data.times;
+				valueEntries = msg.data.values;
 			});
 
 			// update the display ppgLeg_graph
-			setInterval(function() {
-			var data_update = {
-				x: [timeEntries],
-				y: [valueEntries]
-			};
-			Plotly.restyle('ppgLeg_graph', data_update);
+			setInterval(function () {
+				var data_update = {
+					x: [timeEntries],
+					y: [valueEntries]
+				};
+				Plotly.restyle('ppgLeg_graph', data_update);
 			}, 500); // ms
 		}
 		displayPpgLeg();
