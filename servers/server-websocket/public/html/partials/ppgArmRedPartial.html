@@ -1,0 +1,44 @@
+<div>
+	<h1>PPG ARM RED LED SIGNAL</h1>
+	<div style="margin-top: 1%; margin-bottom: 1%;">
+		<button type="button" onclick="viewLatestBosRedData();" class="btn btn-primary">View Latest Signal</button>
+	</div>
+
+	<div id="ppgArm_Redgraph"></div>
+	<script type="text/javascript">
+		function viewLatestBosRedData() {
+			window.open("http://localhost:6969/viewlatestbosdata");
+		}
+
+		function displayBosRed() {
+			var socket = io.connect('http://localhost:6969', { transports: ['websocket', 'polling'] });
+
+			Plotly.plot('ppgArm_Redgraph', [{
+				y: [0],
+				mode: 'lines',
+				line: { color: '#80CAF6' }
+			}]);
+
+			var maxEntryCount = 200;
+			var entryCount = 0;
+			var timeEntries = [];
+			var valueEntries = [];
+
+			socket.on('update ppg arm red', function (msg) {
+				timeEntries = msg.data.times;
+				valueEntries = msg.data.values;
+			});
+
+			// update the display ppgArm_Redgraph
+			setInterval(function () {
+				var data_update = {
+					x: [timeEntries],
+					y: [valueEntries]
+				};
+				Plotly.restyle('ppgArm_Redgraph', data_update);
+			}, 500); // ms
+		}
+
+		displayBosRed();
+	</script>
+</div>

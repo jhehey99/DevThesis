@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <script src="/js/vendor/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/vendor/materialize.min.css">
+    <link rel="stylesheet" href="/css/svgstyles.css">
+    <script src="/js/vendor/materialize.min.js"></script>
+    <h3 class="title" style="">Blood Oxygen Saturation PPG Signal Processing </h3>
+    <h4 style="text-align:center;">Record ID </h4>
+    <h4 style="text-align:center;" class="record-id"></h4>
+    <script>
+        //TODO UNG RECORDEDID
+        $.ajax({
+            url: '/recordedId',
+            complete: function (data) {
+                console.log(data);
+                $('h4.record-id').text(data.responseText);
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <div class="center">
+        <h4 style="display:block; text-align:center;">IR LED Signal AC and DC Component Finding</h4>
+        <div style="margin-bottom: 1%; margin-top: 2%;">
+            <svg width="1000" height="600">
+                <image xlink:href="<%= ir_fig %>" width="1000" height="600" />
+            </svg>
+        </div>
+        <h4 style="display:block; text-align:center;">RED LED Signal AC and DC Component Finding</h4>
+        <div style="margin-bottom: 1%; margin-top: 2%;">
+            <svg width="1000" height="600">
+                <image xlink:href="<%= red_fig %>" width="1000" height="600" />
+            </svg>
+        </div>
+    </div>
+</body>
+
+</html>

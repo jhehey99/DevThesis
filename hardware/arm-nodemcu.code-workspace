@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "child\\ppg-arm"
+		},
+		{
+			"name": "nodemcu",
+			"path": "root\\nodemcu"
+		}
+	],
+	"settings": {
+		"terminal.integrated.env.windows": {
+			"PATH": "C:\\Users\\Jhehey\\.platformio\\penv\\Scripts;C:\\Users\\Jhehey\\.platformio\\penv;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\dotnet\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Jhehey\\AppData\\Roaming\\npm\\node_modules;C:\\Users\\Jhehey\\AppData\\Roaming\\npm\\node_modules\\nodemon\\bin\\;C:\\Users\\Jhehey\\AppData\\Roaming\\npm\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\dotnet\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Jhehey\\AppData\\Roaming\\npm\\node_modules;C:\\Users\\Jhehey\\AppData\\Roaming\\npm\\node_modules\\nodemon\\bin\\;C:\\Users\\Jhehey\\AppData\\Roaming\\npm\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\",
+			"PLATFORMIO_CALLER": "vscode"
+		}
+	}
+}

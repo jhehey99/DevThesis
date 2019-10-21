@@ -1,0 +1,44 @@
+<div>
+	<h1>PPG ARM IR LED SIGNAL</h1>
+	<div style="margin-top: 1%; margin-bottom: 1%;">
+		<button type="button" onclick="viewLatestBosIrData();" class="btn btn-primary">View Latest Signal</button>
+	</div>
+
+	<div id="ppgArm_graph"></div>
+	<script type="text/javascript">
+		function viewLatestBosIrData() {
+			window.open("http://localhost:6969/viewlatestbosdata");
+		}
+
+		function displayBosIr() {
+			var socket = io.connect('http://localhost:6969', { transports: ['websocket', 'polling'] });
+
+			Plotly.plot('ppgArm_graph', [{
+				y: [0],
+				mode: 'lines',
+				line: { color: '#80CAF6' }
+			}]);
+
+			var maxEntryCount = 200;
+			var entryCount = 0;
+			var timeEntries = [];
+			var valueEntries = [];
+
+			socket.on('update ppg arm', function (msg) {
+				timeEntries = msg.data.times;
+				valueEntries = msg.data.values;
+			});
+
+			// update the display ppgArm_graph
+			setInterval(function () {
+				var data_update = {
+					x: [timeEntries],
+					y: [valueEntries]
+				};
+				Plotly.restyle('ppgArm_graph', data_update);
+			}, 500); // ms
+		}
+
+		displayBosIr();
+	</script>
+</div>

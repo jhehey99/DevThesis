@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+
+<head>
+	<script src="/js/vendor/jquery.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/js/vendor/plotly-latest.min.js"></script>
+	<link rel="stylesheet" href="/css/vendor/materialize.min.css">
+	<link rel="stylesheet" href="/css/styles.css">
+	<script src="/js/vendor/materialize.min.js"></script>
+
+</head>
+
+<body>
+	<div class="outer">
+		<div data-includeHTML="html/sidebar/sidebar.html" class="sidebar"></div>
+		<div data-includeHTML="html/nav/navbar.html" class="navnav"></div>
+
+		<div id="signals" class="main">
+			<div data-includeHTML="html/partials/ecgPartial.html" style="margin-bottom: 2%;"></div>
+			<div data-includeHTML="html/partials/ppgArmPartial.html" style="margin-bottom: 2%;"></div>
+			<div data-includeHTML="html/partials/ppgLegPartial.html" style="margin-bottom: 2%;"></div>
+		</div>
+	</div>
+	<script type="text/javascript" src="/js/load.js"></script>
+	<script type="text/javascript" src="/js/unload.js"></script>
+	<script type="text/javascript" src="/js/navEvent.js"></script>
+
+</body>
+
+</html>

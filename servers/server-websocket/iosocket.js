@@ -9,7 +9,6 @@ var io = require('socket.io')(server);
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/thesisDB', { useNewUrlParser: true, useUnifiedTopology: true });
 
-
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function () {
@@ -25,11 +24,6 @@ var Record = require("./models/record");
 var uniqid = require('uniqid');
 
 console.log(uniqid());
-
-// Account.findOne({ username: "test" }, function (err, account) {
-// 	if (err) return console.error(err);
-// 	console.log(account);
-// });
 
 //TODO ADD A GET LAST RECORDEDID ROUTE TO VIEW LATEST SIGNAL
 
@@ -97,7 +91,6 @@ function updatePpgArmState(address) {
 		}
 		ppgarm_state = PpgArmStateEnum.RED;
 	}
-
 }
 
 var ModeEnum = {
@@ -106,12 +99,6 @@ var ModeEnum = {
 };
 
 var parameter_mode = ModeEnum.BloodPressure;
-
-//TODELETE
-// fs.readFile(__dirname + "/files/record_id", 'utf8', (err, data) => {
-// 	if (err) throw err;
-// 	record_id = data;
-// });
 
 // TODO: NAV BAR, PARA BUTTONS NALANG PAG NAVIGATE INSTEAD OF URL
 app.get('/ecg', function (req, res) {

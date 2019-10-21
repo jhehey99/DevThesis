@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+	<script src="/js/vendor/jquery.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/js/vendor/plotly-latest.min.js"></script>
+	<link rel="stylesheet" href="/css/vendor/materialize.min.css">
+	<link rel="stylesheet" href="/css/styles.css">
+	<script src="/js/vendor/materialize.min.js"></script>
+
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> -->
+	<!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+</head>
+
+<body>
+	<div class="outer">
+		<div data-includeHTML="html/sidebar/redsidebar.html" class="sidebar"></div>
+		<div data-includeHTML="html/nav/rednavbar.html" class="navnav"></div>
+
+		<div id="signals" class="main">
+			<div data-includeHTML="html/partials/ppgArmIRPartial.html" style="margin-bottom: 2%;"></div>
+			<div data-includeHTML="html/partials/ppgArmRedPartial.html" style="margin-bottom: 2%;"></div>
+		</div>
+	</div>
+	<script type="text/javascript" src="/js/load.js"></script>
+	<script type="text/javascript" src="/js/unload.js"></script>
+	<script type="text/javascript" src="/js/navEvent.js"></script>
+</body>
+
+</html>
