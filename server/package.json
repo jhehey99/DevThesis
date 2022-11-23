@@ -20,6 +20,6 @@
     "mysql": "latest",
     "mysql-import": "^2.0.2",
     "plotly.js": "^1.48.3",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.5.0"
   }
 }
